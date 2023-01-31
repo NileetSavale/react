@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
         title: 'IndiaManufacturing',
-        path: 'IndiaManufacturing',
+        path: '/IndiaManufacturing',
         cName: 'dropdown-link'
     }
 ]

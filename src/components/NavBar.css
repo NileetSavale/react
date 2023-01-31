@@ -21,7 +21,26 @@
     margin-left: 20px;
     cursor: pointer;
   }
+  /* Custom Code */
+
+  .nav-item {
+    position: relative;
+  }
   
+  .hidden {
+    overflow: hidden;
+    height: 0;
+    position: absolute;
+    top: 100%;
+    display: grid;
+    background-color: black;
+    animation: ease-in-out 0.2s;
+  }
+  
+  .nav-item:hover .hidden {
+    height: max-content;
+    width: max-content;
+  }
   .fa-firstdraft {
     margin-left: 0.5rem;
     font-size: 1.6rem;
